@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+    <title>Ecommerce Product Page</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START HEADING -->
+    <header>
+        <div class="container">
+            <ul class="nav">
+                <li>
+                    <ion-icon name="menu-outline" class="menu-toggle"></ion-icon>
+                </li>
+                <li class="logo"><img src="images/logo.svg" alt=""></li>
+                <ul class="links">
+                    <li><a href="">Collections</a></li>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6"
+                            target="_blank" class="challange-link">Challange
+                            Link</a></li>
+                </ul>
+            </ul>
+            <ul class="profile">
+                <li class="cart">
+
+                    <div class="cart-icon-wrapper">
+                        <ion-icon name="cart-outline" class="cart-icon"> </ion-icon>
+                        <span class="items-counter">0</span>
+                    </div>
+                    <div class="cart-content">
+                        <p>Cart</p>
+                        <!-- All added products to cart -->
+                        <div class="added-to-cart">
+
+                            <button class="checkout">Checkout</button>
+                        </div>
+                    </div>
+
+                </li>
+                <li><img src="images/image-avatar.png" alt="" class="profile-logo"></li>
+            </ul>
+        </div>
+    </header>
+    <!-- END HEADING -->
+
+    <div class="all-products">
+        <div class="container">
+            <!-- START PRODUCT1 -->
+            <div class="product">
+                <div class="product-images">
+                    <div class="selected-photo">
+                        <img src="images/image-product-1.jpg" alt="">
+
+                        <ion-icon name="chevron-forward-outline" class="right"></ion-icon>
+
+                        <ion-icon name="chevron-back-outline" class="left"></ion-icon>
+                    </div>
+                    <div class="thumbnails">
+                        <img class="active" src="images/image-product-1-thumbnail.jpg" alt="">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-des">
+                    <div class="p-title">
+                        <p>SNEAKER COMPANY</p>
+                        <h1>Fall Limited Edition Sneakers</h1>
+                    </div>
+                    <p class="p-details">
+                        These low-profile sneakers are your perfect casual wear companion. Featuring a
+                        durable rubber outer sole, they'll withstand everything the weather can offer.
+                    </p>
+                    <div class="p-price">
+                        <span class="now">$125.00</span>
+                        <span class="before"><del>$250.00</del></span>
+                    </div>
+                    <div class="p-last">
+
+                        <div class="amount">
+                            <span class="lower">-</span>
+                            <p class="p-current-amount">1</p>
+                            <span class="higher">+</span>
+                        </div>
+
+                        <button href="" class="buy">
+                            <ion-icon name="cart-outline" class="cart"></ion-icon>Add to cart
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- END PRODUCT1 -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
